@@ -1,6 +1,34 @@
 body{
     width: 80vw;
     margin: auto;
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(200, 192, 192);
+}
+
+table{
+    width: 100%;
+}
+
+td, th{
+    width: 16%;
+    text-align: center;
+    padding: 5px;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#pjogadores{
+    background-color: rgb(133, 255, 255);
+}
+
+#artigos{
+    background-color: rgb(197, 142, 248);
+    display: flex;
+}
+
+#historias{
+    background-color: rgb(159, 255, 159);
 }
 
